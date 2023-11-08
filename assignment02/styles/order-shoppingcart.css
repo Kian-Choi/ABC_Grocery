@@ -1,0 +1,66 @@
+/*--------------- my order & shopping cart ---------------*/
+.order_table,
+caption {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px rgba(190, 190, 190, 0.31);
+}
+
+.order_table * {
+    font-size: 15pt;
+}
+
+.order_table th {
+    padding: 15px;
+}
+
+
+.order_table img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.order_table td {
+    padding: 10px;
+    box-shadow: 1px 3px lightgrey;
+}
+
+.order_table button {
+    width: 90%;
+}
+
+#cancelOrder,
+#clearCart,
+#purchase {
+    width: 100%;
+    background-color: brown;
+    font-weight: bold;
+    color: azure;
+    border-style: none;
+    padding: 5px;
+}
+
+#purchase {
+    background-color: darkgreen;
+}
+
+.shopping_cart {
+    min-width: 600px;
+}
+
+th {
+    background-color: midnightblue;
+    color: azure;
+}
+
+caption {
+    background-color: rgba(223, 223, 223, 0.647);
+    padding: 10px;
+    font-weight: bold;
+}
+
+.total {
+    text-align: right;
+}

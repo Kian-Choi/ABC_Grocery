@@ -1,0 +1,96 @@
+/*--------------- sign in & registration ---------------*/
+
+#signin {
+    background-color: black;
+    border-radius: 5%;
+    color: azure;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* font-size: 1vw; */
+}
+
+#signin:hover {
+    background-color: rgba(0, 0, 0, 0.614);
+}
+
+.signinContainer,
+.registrationContainer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.signinTable,
+.registrationTable {
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+}
+
+.signinTable td,
+.registrationTable td {
+    vertical-align: top;
+}
+
+.signinTable input[type="text"],
+.registrationTable input[type="text"],
+.signinTable input[type="password"],
+.registrationTable input[type="password"] {
+    width: 300px;
+}
+
+#signUp,
+#reset {
+    border-radius: 5%;
+    color: azure;
+    font-weight: bold;
+}
+
+#signUp {
+    background-color: rgb(17, 70, 122);
+}
+
+#signUp:hover {
+    background-color: rgba(40, 119, 198, 0.724);
+}
+
+#reset {
+    background-color: rgb(149, 32, 55);
+}
+
+#reset:hover {
+    background-color: rgb(223, 45, 80);
+}
+
+.warn {
+    color: crimson;
+}
+
+.registrationTable button {
+    width: 49%;
+}
+
+.centre_td {
+    text-align: center;
+}
+
+a {
+    color: #cd0000;
+    text-decoration: none;
+    padding: 3px;
+}
+
+a:hover {
+    background-color: rgba(255, 187, 0);
+    color: rgb(49, 43, 43);
+}
+
+
+#right {
+    width: 300px;
+}

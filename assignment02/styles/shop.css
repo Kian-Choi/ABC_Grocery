@@ -1,0 +1,101 @@
+/*--------------- search table ---------------*/
+
+.search-container {
+    width: 530px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.search-container div {
+    padding-bottom: 10px;
+}
+
+.search-container select {
+    width: 290px;
+}
+
+.search-container input {
+    width: 250px;
+}
+
+.two-column-grid {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.clearSearchButton {
+    width: 515px;
+    background-color: darkgrey;
+    color: rgb(55, 55, 55);
+    font-weight: bold;
+    border-style: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.clearSearchButton:hover {
+    background-color: rgba(128, 128, 128, 0.475);
+}
+
+.search-container,
+.signinTable {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.filterBox {
+    color: rgb(40, 40, 40);
+}
+
+#filter {
+    color: grey;
+}
+
+/*--------------- items ---------------*/
+.product-item img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-item {
+    width: 300px;
+    border: 2px solid grey;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.product-item img {
+    border-radius: 10px;
+}
+
+
+.product-item:hover {
+    background-color: rgba(205, 5, 5, 0.432);
+}
+
+@media (max-width: 880px) {
+    .product-item {
+        width: 90vw;
+    }
+}
+
+.addItem {
+    background-color: rgba(32, 32, 118, 0.929);
+    color: azure;
+    border-style: none;
+    padding: 3px;
+}
+
+.addItem:hover {
+    background-color: rgba(32, 32, 118, 0.728);
+}

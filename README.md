@@ -1,4 +1,4 @@
-# ABC_Grocery
+# ABC Grocery
 
 ABC grocery is an open-ended school assignment created by me and my classmate, Bill Chow. The project is an online grocery store that features functionalities such as user sign up, sign in, adding items to cart, checking out, and more.
 
